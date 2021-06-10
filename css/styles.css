@@ -1,0 +1,189 @@
+/* HTML ELEMENTS */
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat';
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* CONTAINERS */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* HEADINGS */
+
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* TITLE SECTION */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #fff;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 100;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 0;
+
+}
+
+
+/* DOWNLOAD BUTTONS */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* TITLE IMAGE */
+.title-image {
+  right: 25%;
+  width: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* FEATURES SECTION */
+
+#features {
+  padding: 7% 0%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.feature-item {
+  
+}
+
+.fa {
+  color: #ef8172;
+}
+
+.fa:hover {
+  color: #ff4c68;
+}
+
+
+
+/* TESTMONIALS SECTION */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+}
+
+.testimonials-text {
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 13%;
+  margin: 20px 20px 50px 20px;
+}
+
+.carousel-item {
+}
+
+
+/* PRICING SECTION */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-header {
+}
+
+class="price-text" {
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+@media (max-width: 1028px) {
+  .title-image {
+    right: 25%;
+    width: 22%;
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
